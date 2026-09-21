@@ -1,0 +1,86 @@
+.container{
+    background-color: #F3F4F6;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    text-align: center;
+    color: #374151;
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.titleBold{
+    font-weight: 700;
+    color: #6D28D9;
+}
+
+.btnNuevaCita{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6D28D9;
+    color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btnTextoNuevaCita{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.noPacientes{
+    text-align: center;
+    color: #4B5563;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.listado {
+    margin-top: 50px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modelOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modelContainer {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 650px;
+    max-height: 90vh;
+    overflow-y: auto;
+    width: 100%;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    position: relative;
+}
