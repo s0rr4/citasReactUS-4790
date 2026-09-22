@@ -1,17 +1,34 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import './css/main.css'
+import Formulario from './components/Formulario.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [initialState, setState] = useState("Hola Mundo")
+  const [modalVisible, setModalVisible] = useState(false)
 
   return (
-    <>
-    <h1>Hola Pene</h1>
-    <p>Primer pene pene</p>
-    </>
+    <main className="container">
+      <h1>Administrador de Citas <span className="titulo-bold">Veterinario</span></h1>
+      <button 
+      className="btnNuevaCita"
+      onClick={()=> {
+        console.log(initialState) 
+        setState('Hiciste click')
+        setModalVisible(true)
+      }}>
+        <span className="btnTextoNuevaCita">Nueva Cita</span>
+      </button>
+      {modalVisible && (
+        <div className="modelOverlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+          <div className="modelContainer">
+            <Formulario />
+            <button type="button" onClick={() => setModalVisible(false)}>
+              Cerrar
+            </button>
+          </div>
+        </div>
+      )}
+    </main>
   )
 }
 

@@ -6,7 +6,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.title{
+.titulo{
     text-align: center;
     color: #374151;
     font-size: 30px;
@@ -14,7 +14,7 @@
     font-weight: 600;
 }
 
-.titleBold{
+.titulo-bold{
     font-weight: 700;
     color: #6D28D9;
 }
@@ -32,6 +32,10 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+}
+
+.btnNuevaCita:hover{
+    background-color: #5B21B6;
 }
 
 .btnTextoNuevaCita{
@@ -83,4 +87,8 @@
     width: 100%;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     position: relative;
+}
+
+h1 {
+    color: #111827;
 }
