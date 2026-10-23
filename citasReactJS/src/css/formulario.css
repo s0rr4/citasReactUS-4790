@@ -1,0 +1,112 @@
+.formulario-contenido{
+    padding: 30px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #1F2937;
+}
+
+.formulario-titulo{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #111827;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario-titulo-bold{
+    font-weight: 900;
+    color: #6D28D9;
+}
+
+.formulario-btn-cancelar{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6D28D9;
+    color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-btn-cancelar:hover{
+    background-color: #5B21B6;
+}
+
+.formulario-btn-texto-cancelar{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.formulario-campo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario-label{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.formulario-input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #D1D5DB;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #1F2937;
+    background-color: #F9FAFB;
+    box-sizing: border-box;
+}
+
+.formulario-input::placeholder{
+    color: #666666;
+}
+
+.formulario-input:focus{
+    outline: 2px solid #F59E0B;
+    border-color: #F59E0B;
+}
+
+.formulario-btn-submit{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #F59e0b;
+    color: #5827A4;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-btn-submit:hover{
+    background-color: #D98806;
+    color: #FFFFFF;
+    border-color: #D98806;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* hover = #D98806 */

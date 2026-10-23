@@ -1,0 +1,54 @@
+.paciente-card{
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.paciente-label{
+    background-color: #374151;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.paciente-nombre{
+    color: #6d28d9;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paciente-fecha{
+    color: #374151;
+    margin: 0;
+    font-size: 14px;
+}
+
+.paciente-contenedor-botones{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.paciente-btn{
+    background-color: #6d28d9;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.paciente-btn-editar{
+    background-color: #f59e0b;
+}
+
+.paciente-btn-eliminar{
+    background-color: #ef4444;
+}
